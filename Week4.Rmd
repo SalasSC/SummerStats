@@ -1,0 +1,36 @@
+---
+title: "Week 4 Data Analysis Script"
+author: "Sandra"
+date: '`r Sys.Date()`'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Overview
+
+This report presents preliminary data analysis for the Week 3 Examples Data. Specifically, this will report basic descriptive statistics as well as report tests of the following predictions:
+
+1. People will feel more guilt when: 
+  + 1.1 They caused the shock (vs. their partner)
+  + 1.2 Their partner was morally good (vs. bad)
+  + 1.3 The shock was stronger (high > medium > low)
+2. Women will report more guilt than men
+3. Agreeable people will report more guilt
+4. Neurotic people will report more guilt
+
+and
+
+5. People will be more generous when:
+  + 5.1 They caused the shock (vs. partner)
+  + 5.2 The partner was morally good (vs. bad)
+  + 5.3 The shock was stronger (high > medium > low)
+6. Women will be more generous than men
+7. Agreeable people will be mor generous
+8. Neurotic people will be more generous
